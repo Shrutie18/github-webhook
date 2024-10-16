@@ -15,9 +15,11 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying...'
+                echo 'Deploying jenkinsfile...'
                 // Add your deployment commands here
             }
         }
     }
 }
+
+
