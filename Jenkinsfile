@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing...'
+                echo 'Testing jenkinsfile...'
                 // Add your test commands here
             }
         }
